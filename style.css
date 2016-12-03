@@ -1,0 +1,65 @@
+/*
+Theme Name: Paralex srilanka
+Theme URI: http://bmsbd.biz
+Description: Wordpress site for healping lanka.
+Version: 1.0
+Author: Bijon Krishna Bairagi
+Author URI: http://www.bmsbd.biz
+*/
+
+
+
+
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+body{margin:0px; padding:0px; font-size:12px; font-family: 'Roboto', sans-serif; background-color:#7b7b7b;}
+.clear{height:0px;width: 0px; clear: both;}
+.mainContainer{width:1002px; margin:0 auto;}
+.topLinks{border-top:6px solid #fff; /*border-bottom:6px solid #fff;*/ background-color:#000; color:#fff; padding:0px 0;}
+.container{max-width:1002px; margin:0 auto; position:relative;}
+.logo{ z-index:1000; max-width:434px; float: left; }
+.logoBox{ }
+.logo img{width:100%; display:block;}
+.slider{position:relative;z-index:222; width:992px;}
+.slider img{width:100%; display:block;}
+.navigation{text-align:; background: #fab941; position: absolute; top:10px; right: 10px; width: 730px; border-radius: 15px; padding: 5px;}
+.navigation p{font-size: 28px; color: #fb0000; margin:13px 0; padding:0px;}
+.navigation b{font-size: 20px; color: #fff;  }
+.search{position: relative; float:left;}
+.search input{background: #000; color: #fff; height: 32px;width: 161px; border-radius: 10px; border-color: #000; margin: -20px 0px 0px 16px; position: relative;}
+.search button{background: url(images/search.png) no-repeat  2px 2px #272727;border-color: #404040;border-radius: 0 10px 10px 0; bottom: 3px;  height: 34px;  left: 138px;  margin: 0;  position: absolute; width: 42px; border: 1px;}
+.log-in{width: 240px; height: 116px; position: absolute; top: 4px; right: 15px; background: #f8bea6; padding: 8px; border-radius: 15px;}
+.log-in input{ height: 20px; width: 140px; border-radius: 10px; border-color: #fff; margin-bottom: 15px;}
+.log-in button{background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #f7b69c 51%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(51%,#f7b69c), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f7b69c 51%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#f7b69c 51%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#f7b69c 51%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#f7b69c 51%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+color: #ed5e58;
+border-radius: 7px;
+border: 0px;
+font-size: 15px;
+margin-left: 25px;
+}
+.navigation ul{margin:12px 0 5px 0; padding:0px; float: right;}
+.navigation ul li{display:inline-block; font-size:15px; font-weight:bold;  text-align: center; padding:5px 15px;}
+.navigation ul li:hover{background-color:#000; color:#fff; border-radius:5px;}
+.navigation ul li a{color:#ff0000; text-decoration:none;}
+.navigation ul li a:hover{color:#fff;}
+.bxslider img{height: 100%; width: 1002px;}
+.bxslider {height: 100%; padding: 0px !important; margin:0px;}
+.blackBg{background-color:#000; padding:27px 0;}
+.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;line-height:0;visibility:hidden}
+.iconFirst{float:left; max-width:245px; margin-right:79px; margin-left:27px;}
+.iconScnd{float:left; max-width:245px; margin-right:105px;}
+.iconThird{float:left; max-width:245px;}
+section .hdng{background-color:#5c5c5c;border-top:15px solid #212121; border-bottom:15px solid #212121; font-size:26px; text-transform:uppercase; text-align:center; padding:25px 0; font-weight:700; color:#fff;}
+section .contentBx{background-color:#000; color:#fff; font-size:14px; padding:15px 20px; line-height:21px;}
+.ftrTxt{padding:7px 0; text-align:center; background-color:#fbb430; margin-top:15px;}
+.iconFirst:last-child{margin-right:0px !important;}
+.whtBorder{background-color:#fff;padding:6px;}
+
